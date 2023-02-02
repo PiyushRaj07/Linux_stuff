@@ -1,0 +1,23 @@
+Linux add new user
+
+```bash
+sudo adduser username
+```
+
+Add the new user to `ubuntu` group
+
+```
+sudo usermod -aG ubuntu username
+```
+
+Add the new user to `www-data` group (read logs)
+
+```
+sudo usermod -aG www-data username
+```
+
+
+Test `sudo` access
+
+```bash
+sudo su - username
