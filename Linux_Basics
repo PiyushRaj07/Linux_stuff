@@ -90,3 +90,9 @@ Q: Create PV's using /dev/vdb and /dev/vdc.
 
 
 Ans:Run: sudo pvcreate /dev/vdb and sudo pvcreate /dev/vdc
+
+Q: ipconfig, ipconfig, ipconfig use cases
+1. ipconfig /all : To get your system network infomation
+2. ipconfig: To resolve ip address from domain name Or vice versa is also possible.
+3. ping : To check whether the host is reachable or not.
+4. ipconfig (Trace root): To get the path or the hops the packet is taking to reach to host.
